@@ -1,6 +1,4 @@
-export type InfoProps = [
-  {
-    title: string;
-    content: string;
-  }
-];
+export type InfoProps = {
+  title: string;
+  content: string;
+}[];
