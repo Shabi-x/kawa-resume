@@ -2,7 +2,7 @@ import React, { forwardRef, memo } from "react";
 import type { InfoProps } from "./info.types";
 
 
-export const Info = memo(
+ const Info = memo(
   forwardRef<HTMLDivElement, { infoList: InfoProps }>(
     ({ infoList }, ref) => {
       return (
